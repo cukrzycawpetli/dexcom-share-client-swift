@@ -22,16 +22,10 @@ extension ShareService: ServiceAuthenticationUI {
                 isSecret: true,
                 keyboardType: .asciiCapable
             ),
-            ServiceCredential(
-                title: LocalizedString("Server", comment: "The title of the Dexcom share server URL credential"),
+           ServiceCredential(
+                title: LocalizedString("NS ShareServer", comment: "The title of the NS share server URL credential"),
                 isSecret: false,
-                options: [
-                    (title: LocalizedString("US", comment: "U.S. share server option title"),
-                     value: KnownShareServers.US.rawValue),
-                    (title: LocalizedString("Outside US", comment: "Outside US share server option title"),
-                     value: KnownShareServers.NON_US.rawValue)
-
-                ]
+                keyboardType: .asciiCapable
             )
         ]
     }
