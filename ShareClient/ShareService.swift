@@ -14,7 +14,7 @@ import LoopKit
 public class ShareService: ServiceAuthentication {
     public var credentialValues: [String?]
 
-    public let title: String = LocalizedString("Dexcom Share", comment: "The title of the Dexcom Share service")
+    public let title: String = LocalizedString("NS Share Server", comment: "The url of the NS Share Server")
 
     public init(username: String?, password: String?, url: URL?) {
         credentialValues = [
