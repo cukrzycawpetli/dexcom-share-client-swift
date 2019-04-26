@@ -32,7 +32,7 @@ public class ShareClientManager: CGMManager {
         }
     }
 
-    public static let localizedTitle = LocalizedString("Dexcom Share", comment: "Title for the CGMManager option")
+    public static let localizedTitle = LocalizedString("NS Share Server", comment: "Title for the CGMManager option")
 
     public let appURL: URL? = nil
 
